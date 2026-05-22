@@ -1,0 +1,18 @@
+
+> incubyte-test-sign-up-flow@1.0.0 test:bdd
+> cucumber-js --require-module ts-node/register --require step-definitions/**/*.ts features/**/*.feature
+
+This Node.js version (v26.0.0) has not been tested with this version of Cucumber; it should work normally, but please raise an issue if you see anything unexpected.
+..✓ Registration successful. Confirmation page loaded.
+✓ New user registration complete: user1779480427215
+.User is already logged in after registration. Verifying login status...
+✓ Confirmed logged in as user: user1779480427215
+.Navigating to Accounts Overview...
+✓ Successfully navigated to Accounts Overview page
+✓ Accounts Overview page is visible
+.✓ Post-login displayed account amount: $515.50
+..
+
+1 scenario (1 passed)
+5 steps (5 passed)
+0m08.618s (executing steps: 0m08.612s)
