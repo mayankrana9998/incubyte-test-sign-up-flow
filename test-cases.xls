@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <Worksheet ss:Name="TestCases">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Test Case ID</Data></Cell>
+        <Cell><Data ss:Type="String">Scenario (BDD)</Data></Cell>
+        <Cell><Data ss:Type="String">Given</Data></Cell>
+        <Cell><Data ss:Type="String">When</Data></Cell>
+        <Cell><Data ss:Type="String">Then</Data></Cell>
+        <Cell><Data ss:Type="String">Expected Result</Data></Cell>
+        <Cell><Data ss:Type="String">Priority</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">TC_001</Data></Cell>
+        <Cell><Data ss:Type="String">Register valid new user</Data></Cell>
+        <Cell><Data ss:Type="String">User is on ParaBank home page</Data></Cell>
+        <Cell><Data ss:Type="String">User navigates to Register page and submits valid unique data</Data></Cell>
+        <Cell><Data ss:Type="String">Registration completes</Data></Cell>
+        <Cell><Data ss:Type="String">User sees successful registration state and can proceed</Data></Cell>
+        <Cell><Data ss:Type="String">High</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">TC_002</Data></Cell>
+        <Cell><Data ss:Type="String">Login with newly created user</Data></Cell>
+        <Cell><Data ss:Type="String">User account was created</Data></Cell>
+        <Cell><Data ss:Type="String">User logs in using generated username/password</Data></Cell>
+        <Cell><Data ss:Type="String">Accounts Overview appears</Data></Cell>
+        <Cell><Data ss:Type="String">User is authenticated successfully</Data></Cell>
+        <Cell><Data ss:Type="String">High</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">TC_003</Data></Cell>
+        <Cell><Data ss:Type="String">Capture post-login amount</Data></Cell>
+        <Cell><Data ss:Type="String">User is logged in</Data></Cell>
+        <Cell><Data ss:Type="String">User opens Accounts Overview</Data></Cell>
+        <Cell><Data ss:Type="String">Automation reads first amount cell</Data></Cell>
+        <Cell><Data ss:Type="String">Displayed amount is printed/logged</Data></Cell>
+        <Cell><Data ss:Type="String">High</Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
