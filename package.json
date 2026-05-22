@@ -1,0 +1,15 @@
+{
+  "name": "incubyte-test-sign-up-flow",
+  "version": "1.0.0",
+  "description": "BDD + POM automation for ParaBank sign-up and login flow",
+  "scripts": {
+    "test:bdd": "cucumber-js --require-module ts-node/register --require step-definitions/**/*.ts features/**/*.feature",
+    "test": "npm run test:bdd"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.54.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
