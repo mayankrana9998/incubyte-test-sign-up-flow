@@ -13,6 +13,7 @@ export type UserData = {
 
 export function buildUserData(): UserData {
   const stamp = Date.now();
+  const ssnRandom = String(Math.floor(Math.random() * 999999999)).padStart(9, '0');
   return {
     firstName: "Incubyte",
     lastName: `User${stamp}`,
@@ -21,8 +22,8 @@ export function buildUserData(): UserData {
     state: "TX",
     zipCode: "78701",
     phone: "5125550101",
-    ssn: `${stamp}`.slice(-9),
-    username: `incubyte_${stamp}`,
-    password: "Pass@12345"
+    ssn: ssnRandom,
+    username: `user${stamp}`,
+    password: "Testpass123"
   };
 }
